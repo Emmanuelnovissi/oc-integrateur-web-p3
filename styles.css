@@ -1,0 +1,23 @@
+body{
+    background-color: #111;
+    color: #eee;
+}
+a{
+    color: rgb(219, 28, 85);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline ;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+.formulaire{
+    display:flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
