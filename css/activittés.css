@@ -1,0 +1,47 @@
+.activités{
+    display: flex;
+    flex-direction: column;
+    width: 1,340px;
+    height: hug(559.02px)px;
+    padding: 30px;
+    gap: 30px;
+}
+
+.activitésEngenerale{
+    display: flex;
+    flex-direction: row;
+    height: 439px;
+    gap: 30px;
+}
+
+.activitéProposer1{
+    display: flex;
+    flex-direction: column;
+    width: Fill (297.5px)px;
+    height: Fixed (439px)px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.activitéProposer1 p{
+    margin-left: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.elemenActivité{
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+
+}
+
+
+.activitéProposer1 img{
+    object-fit: cover;
+    width: 297.5px;
+    height: 380px;
+    gap: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
