@@ -1,16 +1,33 @@
-footer{
+.footer{
     display: flex;
     flex-direction: row;
     background: #F2F2F2;
-    width: Fill (1,340px)px;
-    height: Hug (163px)px;
-    gap: 290px;
+    justify-content: space-between;
 }
 
-.element-footer1{
+.footer-content{
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
-    width: Fill (446.67px)px;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        width: fit-content;
+    }
+    .footer-content p{
+        width: fit-content;
+    }
+
 }

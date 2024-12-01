@@ -7,7 +7,7 @@ header{
 }
 
 header img{
-    width: Hug (161.09px)px;
+    width: 5%;
     height: Hug (79px)px;
     padding: 30px 50px 30px 0;
     gap: 10px;
@@ -20,7 +20,7 @@ header nav{
 }
 
 header nav ul{
-    width: Hug (344px)px;
+    width: 100%;
     height: Hug (35px)px;
     gap: 68px;
     display: flex;
@@ -48,7 +48,7 @@ header nav ul li:hover{
         background: white;
     }
     header img{
-        width: 61.09px;
+        width: 15%;
         height: 19px;
         padding: 20px;
     }

@@ -25,7 +25,10 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-    background: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    flex: 1;
 }
 
 a {
@@ -65,6 +68,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -136,6 +140,10 @@ a {
         flex-direction: column;
     }
 
+    .hebergements1{
+        display: flex;
+    }
+
     .hebergements {
         width: 100%;
     }
@@ -143,39 +151,63 @@ a {
     .populaires {
         width: 100%;
         margin-top: 50px;
-    }
-
-    .populaires-cards {
+      }
+    
+      .populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    .populaires-cards a {
-        width: 30%;
-    }
-
-    .populaires-cards .card-title {
+        gap: 20px;
+      }
+    
+      .populaires-cards a {
+        width: 100%;
+      }
+    
+      .populaires-cards .card-title {
         font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
+      }
+    
+      .populaires-cards .card-subtitle {
         font-size: 13px;
+      }
     }
-}
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
     .main-container {
     width: 100%;
-    max-width: 767.98px;
     box-sizing: border-box;
-    background: rgb(131, 129, 127);
     padding: 0;
     gap: 15px;
     display: flex;
     flex-direction: column;
     }
+    .populaires {
+        width: 100%;
+      }
+    
+      .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    
+      .populaires-cards .card {
+        display: flex;
+        width: 100%;
+      }
+    
+      .populaires-cards img {
+        width: 33%;
+        height: 136px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+      .hebergements-and-populaires section {
+        border-radius: 0px;
+    }
+    
     
 }
