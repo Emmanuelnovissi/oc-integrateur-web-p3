@@ -56,6 +56,7 @@
   outline: none;
 }
 
+
 .section__location input {
   width: 200px;
   padding: 0 15px;
@@ -69,8 +70,13 @@
 }
 
 .section__location input::placeholder {
-  color: #6d6d6d;
-  font-weight: 400;
+  color: black;
+  font-weight: 700;
+}
+
+.section__location input{
+  color: black;
+  font-weight: 700;
 }
 
 .section__location button {
@@ -137,9 +143,20 @@
   flex-direction: row;
   gap: 10px;
 }
+.info .round{
+    border-color: #6d6d6d;
+    border-radius: 50%; 
+    width: 25px; 
+    height: 25px; 
+    border: 1px solid #6d6d6d; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 
-.info i {
-  color: #0065fc;
+.info .round i{
+  color: #007bff;
 }
 
 .presentation {

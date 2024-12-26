@@ -4,6 +4,8 @@
   width: 100%;
   gap: 30px;
   padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .activitiesEngenerale {
@@ -22,7 +24,7 @@
   gap: 10px;
 }
 
-.activitiesProposer1 p {
+.activitiesProposer1 h3 {
   margin-left: 8px;
   font-weight: 700;
   font-size: 16px;
@@ -35,7 +37,7 @@
   box-shadow: 0px 3px 15px 0px #0000001a;
   padding-bottom: 15px;
 }
-.elemenActivities p {
+.elemenActivities h3 {
   margin-left: 20px;
 }
 
